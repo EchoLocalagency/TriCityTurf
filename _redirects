@@ -1,0 +1,45 @@
+# Tri-City Turf - 301 Redirects from old Wix URLs to new site
+# Format: /old-path /new-path 301
+
+# Wix typically uses these URL patterns
+/home                          /                              301
+/about-us                      /about.html                    301
+/about                         /about.html                    301
+/services-1                    /services.html                 301
+/services                      /services.html                 301
+/our-services                  /services.html                 301
+/gallery                       /gallery.html                  301
+/portfolio                     /gallery.html                  301
+/our-work                      /gallery.html                  301
+/contact                       /contact.html                  301
+/contact-us                    /contact.html                  301
+/get-a-quote                   /contact.html                  301
+/free-estimate                 /contact.html                  301
+/faq                           /faq.html                      301
+/reviews                       /reviews.html                  301
+/testimonials                  /reviews.html                  301
+/service-areas                 /service-areas.html            301
+/areas-we-serve                /service-areas.html            301
+/privacy-policy                /privacy-policy.html           301
+/terms-of-service              /terms-of-service.html         301
+
+# Common Wix service page patterns
+/artificial-turf-installation  /services/artificial-turf-installation.html  301
+/putting-greens                /services/putting-greens.html               301
+/pet-turf                      /services/pet-turf.html                     301
+/playground-turf               /services/playground-turf.html              301
+/front-lawn-conversions        /services/front-lawn-conversions.html       301
+/backyard-pool-areas           /services/backyard-pool-areas.html          301
+/bocce-ball-courts             /services/bocce-ball-courts.html            301
+/turf-repairs                  /services/turf-repairs.html                 301
+/turf-removal                  /services/turf-removal.html                 301
+/commercial-turf               /services/commercial-turf.html              301
+/landscape-design              /services/landscape-design.html             301
+
+# Catch trailing slashes
+/about/                        /about.html                    301
+/services/                     /services.html                 301
+/gallery/                      /gallery.html                  301
+/contact/                      /contact.html                  301
+/faq/                          /faq.html                      301
+/reviews/                      /reviews.html                  301
