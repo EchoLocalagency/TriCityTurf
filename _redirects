@@ -20,6 +20,8 @@
 /testimonials                  /reviews.html                  301
 /service-areas                 /service-areas.html            301
 /areas-we-serve                /service-areas.html            301
+/areas.html                    /service-areas.html            301
+/areas                         /service-areas.html            301
 /privacy-policy                /privacy-policy.html           301
 /terms-of-service              /terms-of-service.html         301
 
