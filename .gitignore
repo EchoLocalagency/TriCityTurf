@@ -3,3 +3,6 @@ node_modules/
 assets/images/raw/
 *.psd
 *.ai
+
+# Local Netlify folder
+.netlify
