@@ -13,8 +13,8 @@
   --clr-bg-main: #0A0A0A;
   --clr-bg-alt: #141414;
   --clr-bg-dark: #000000;
-  --clr-text: #E8E8E8;
-  --clr-text-muted: #9CA3AF;
+  --clr-text: #F0F0F0;
+  --clr-text-muted: #CCCCCC;
   --clr-border: #2A2A2A;
 
   --font-display: 'Barlow Condensed', sans-serif;
@@ -111,7 +111,7 @@ section {
 .bg-dark { background: var(--clr-bg-dark); color: #fff; }
 .bg-dark h2, .bg-dark h3, .bg-dark h4 { color: #fff; }
 .bg-dark .eyebrow { color: var(--clr-accent); }
-.bg-dark .text-muted { color: #9CA3AF; }
+.bg-dark .text-muted { color: #CCCCCC; }
 
 .grid { display: grid; gap: 2rem; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
@@ -198,7 +198,7 @@ section {
 }
 .btn-outline:hover {
   background: var(--clr-primary);
-  color: #fff;
+  color: #000;
 }
 
 .btn-outline-light {
@@ -553,7 +553,7 @@ section {
 .hero-content h1 { color: #fff; margin-bottom: 1rem; }
 .hero-content p {
   font-size: 1.15rem;
-  color: #9CA3AF;
+  color: #fff;
   margin-bottom: 2rem;
   max-width: 520px;
 }
@@ -577,7 +577,7 @@ section {
 
 .hero-sub {
   font-size: 1.15rem;
-  color: #9CA3AF;
+  color: #fff;
 }
 
 .hero-ctas {
@@ -618,7 +618,7 @@ section {
 }
 
 .hero-interior h1 { color: #fff; margin-bottom: 0.5rem; font-size: clamp(1.8rem, 4vw, 2.8rem); }
-.hero-interior p { color: #9CA3AF; margin-bottom: 0; font-size: 1.1rem; }
+.hero-interior p { color: #fff; margin-bottom: 0; font-size: 1.1rem; }
 
 /* Breadcrumbs */
 .breadcrumbs {
@@ -629,9 +629,9 @@ section {
   margin-bottom: 1rem;
 }
 
-.breadcrumbs a { color: #9CA3AF; }
+.breadcrumbs a { color: #CCCCCC; }
 .breadcrumbs a:hover { color: var(--clr-accent); }
-.breadcrumbs span { color: #9CA3AF; }
+.breadcrumbs span { color: #CCCCCC; }
 .breadcrumbs .current { color: #fff; }
 
 /* --- Cards --- */
@@ -855,7 +855,7 @@ section {
 .gallery-filter-btn:hover,
 .gallery-filter-btn.active {
   background: var(--clr-primary);
-  color: #fff;
+  color: #000;
   border-color: var(--clr-primary);
 }
 
@@ -1036,8 +1036,8 @@ section {
 
 .cta-banner-inner { }
 
-.cta-banner h2 { color: #fff; margin-bottom: 1rem; }
-.cta-banner p { color: #9CA3AF; margin-bottom: 2rem; max-width: 560px; margin-left: auto; margin-right: auto; }
+.cta-banner h2 { color: #000; margin-bottom: 1rem; }
+.cta-banner p { color: #1a1a1a; margin-bottom: 2rem; max-width: 560px; margin-left: auto; margin-right: auto; }
 
 .cta-banner-buttons {
   display: flex;
@@ -1069,7 +1069,7 @@ section {
 
 .area-pill:hover {
   background: var(--clr-primary);
-  color: #fff;
+  color: #000;
   border-color: var(--clr-primary);
 }
 
@@ -1082,7 +1082,7 @@ section {
 
 .nearby-pill {
   padding: 6px 16px;
-  background: rgba(45,140,110,0.08);
+  background: rgba(76,196,23,0.1);
   border-radius: var(--radius);
   font-size: 13px;
   font-weight: 500;
@@ -1093,7 +1093,7 @@ section {
 
 .nearby-pill:hover {
   background: var(--clr-primary-light);
-  color: #fff;
+  color: #000;
 }
 
 /* --- Process Steps --- */
@@ -1116,7 +1116,7 @@ section {
   width: 48px;
   height: 48px;
   background: var(--clr-primary);
-  color: var(--clr-accent);
+  color: #000;
   border-radius: var(--radius);
   display: flex;
   align-items: center;
@@ -1318,7 +1318,7 @@ section {
 /* --- Footer --- */
 .footer {
   background: var(--clr-bg-dark);
-  color: #9CA3AF;
+  color: #CCCCCC;
   padding: clamp(3rem, 6vw, 5rem) 0 0;
 }
 
@@ -1333,7 +1333,7 @@ section {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 1rem;
-  color: #9CA3AF;
+  color: #CCCCCC;
 }
 
 .footer .logo {
@@ -1353,7 +1353,7 @@ section {
 
 .footer ul li { margin-bottom: 0.6rem; }
 .footer ul a {
-  color: #9CA3AF;
+  color: #CCCCCC;
   font-size: 14px;
   transition: color 0.2s;
 }
@@ -1387,7 +1387,7 @@ section {
   gap: 1.5rem;
 }
 
-.footer-bottom-links a { color: #9CA3AF; font-size: 13px; }
+.footer-bottom-links a { color: #CCCCCC; font-size: 13px; }
 .footer-bottom-links a:hover { color: var(--clr-accent); }
 
 /* --- Legal Pages --- */
