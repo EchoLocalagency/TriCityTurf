@@ -38,6 +38,10 @@
 /commercial-turf               /services/commercial-turf.html              301
 /landscape-design              /services/landscape-design.html             301
 
+# Old Wix pages still indexed by Google
+/installation-process           /services/artificial-turf-installation.html  301
+/installation-process/          /services/artificial-turf-installation.html  301
+
 # Catch trailing slashes
 /about/                        /about.html                    301
 /services/                     /services.html                 301
